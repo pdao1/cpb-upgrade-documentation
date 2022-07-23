@@ -53,6 +53,6 @@ There is a live-search located on the top-left of the page. Utilize this to help
 
 ### Locations (Redesigned)
 
-## Additional Features
+## **Additional Features**
 
 ### Excel import/export to rates
