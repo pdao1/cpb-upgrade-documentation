@@ -7,6 +7,34 @@
 
 2. Include step-by-step guidelines on how to complete the most common tasks.
 
+
+### Documentation setup
+
+This documentation is made with **docsify.js**
+
+Static site is generated from generated build and hosted with **Netlify**
+
+URL: https://cpb9-documentation.netlify.app
+
+**If you'd like to add content to it:**
+
+ Download the project repo here: https://github.com/pdao1/cpb-upgrade-documentation
+
+ Get docsify-cli from npm: `npm i docsify-cli -g`
+
+  if permission error appears, try with sudo: `sudo npm i docsify-cli -g`
+
+Open terminal and cd into directory of repo project
+
+**Create new working branch cloned from MAIN branch.**
+
+***This is importantant as MAIN branch is monitored for changes by Netlify and will build/deploy on any changes.  Best to do PR and once it is merged it will build**
+
+ Run it locally to view rendered site: `docsify serve docs`
+
+ Make edits in the **README.md** file using markdown.
+ 
+
 ### Search feature
 
 There is a live-search located on the top-left of the page. Utilize this to help quickly find keywords of the subject/topic you're looking for.
