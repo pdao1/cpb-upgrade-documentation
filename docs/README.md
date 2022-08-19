@@ -97,14 +97,29 @@ Now
 
 ### Two/Three/Four UP Panels
 
+## Content Templates
+
+**Overview**
+
+Content templates are great ways to clone a page's layout.  With the usage of Block Lists, Content Templates is incredibly useful and will help you save time.  Here's a general breakdown of how to create and utilize content templates.
+
+Content templates are attached to the template itself.  You cannot create a content template made for TEMPLATE X and then try to use it when creating a new page on TEMPLATE Y.  This is one of the only (although major) limitations of content templates.  Please keep that in mind when plannind and creating content templates for use.
+
+**Instructions**
+
+1. Select a page you want to clone into a content template (It will save and take any content inputted in the Block List Elements as well) and right click it.
+![alt](img/content-template1.png)
+
+
 ## **Templates**
 
 ### Master
 
 ### Home
+
 ### Product Overview
 
-### Product Directory
+### Product Type
 
 ### General Content
 
