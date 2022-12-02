@@ -41,22 +41,22 @@ There is a live-search located on the top-left of the page. Utilize this to help
 Programmed theme colors are added to the website's theme to align with CPB's Styleguide.  It also makes referencing the exact color easier than HEX codes and a lot less messier in the CSS. 
 
 
-    --light-swell-color: #80d8d4;
-    --midnight-color: #253746;
-    --sand-color: #faf6f3;
-    --salt-color: #fff;
-    --swell-color: #00b2a9;
-    --dark-swell-color: #007b84;
-    --plumeria-color: #dd74a1;
-    --pacific-color: #0072ce;
-    --papaya-color: #ef9600;
-    --hibiscus-color: #e1523d;
-    --sand-tint-color: #f7f1eb;
-    --midnight-tint-color: #919ba3;
-    --plumeria-tint-color: #eebad0;
-    --pacific-tint-color: #80b9e6;
-    --papaya-tint-color: #f7ca80;
-    --hibiscus-tint-color: #f0a89e;
+    --cpb-light-swell-color: #80d8d4;
+    --cpb-midnight-color: #253746;
+    --cpb-sand-color: #faf6f3;
+    --cpb-salt-color: #fff;
+    --cpb-swell-color: #00b2a9;
+    --cpb-dark-swell-color: #007b84;
+    --cpb-plumeria-color: #dd74a1;
+    --cpb-pacific-color: #0072ce;
+    --cpb-papaya-color: #ef9600;
+    --cpb-hibiscus-color: #e1523d;
+    --cpb-sand-tint-color: #f7f1eb;
+    --cpb-midnight-tint-color: #919ba3;
+    --cpb-plumeria-tint-color: #eebad0;
+    --cpb-pacific-tint-color: #80b9e6;
+    --cpb-papaya-tint-color: #f7ca80;
+    --cpb-hibiscus-tint-color: #f0a89e;
 
 ### CSS Classes
 
@@ -71,9 +71,12 @@ Before, we would do this:
 Now
 
 `.header-cpb {
-  background-color: var(--sand-color);
+  background-color: var(--cpb-sand-color);
 }`
 
+**Color Palettes Built into Umbraco**
+
+We've also added this color palette in Umbraco (under Color Picker Data Type) that may appear in some document types/pages.  Currently, we're using this to allow users to change header and footer colors.  Further implementation of the color palette with the color guides may be expanded to other areas of the website.
 ## **BlockList Elements**
 *Previously known as **Modules & Panels***
 
